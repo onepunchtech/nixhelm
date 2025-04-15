@@ -1,6 +1,6 @@
 {
   repo = "https://helm.cilium.io/";
   chart = "cilium";
-  version = "1.17.2";
-  chartHash = "sha256-l+9fEAb2wb9xAx/HCW/pXW5+MfzbgnSpWk7UOTkpK24=";
+  version = "1.17.3";
+  chartHash = "sha256-kX93MmZ0TMTtuO6EsblK8LYo1P9zvzPTrK6NEs9ZTa4=";
 }
