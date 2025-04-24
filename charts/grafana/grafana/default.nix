@@ -1,6 +1,6 @@
 {
   repo = "https://grafana.github.io/helm-charts/";
   chart = "grafana";
-  version = "8.12.1";
-  chartHash = "sha256-dnPzx8PrD6MTOX2M7BaEj23+NmiOBklam9TIa5DbDvI=";
+  version = "8.13.0";
+  chartHash = "sha256-GWkenLsMEwfeZ1EtEMR79NbL3jFwj6cZ0vI5pW+Er6s=";
 }
