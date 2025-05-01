@@ -1,6 +1,6 @@
 {
   repo = "https://kubernetes.github.io/ingress-nginx/";
   chart = "ingress-nginx";
-  version = "4.12.1";
-  chartHash = "sha256-GEzgtcwJ+lZ9ymCDey54bD7BZkCpXoDcIQU0MjzAxcA=";
+  version = "4.12.2";
+  chartHash = "sha256-TqN7OJD7GxGCm3mHhPXwaz2Xp0zn1BFzl92jmI68l3c=";
 }
