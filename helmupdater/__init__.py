@@ -142,12 +142,17 @@ def update_one_chart(
     subprocess.run(['git', 'commit', '-m', f'{repo_name}/{chart_name}: update to {remote_version}'], check=True)
 
 @app.command()
-def update(name: str, commit: bool = typer.Option(False), rebuild: bool = typer.Option(False)):
+def update(
+  name: str,
+  commit: bool = typer.Option(False),
+  rebuild: bool = typer.Option(False),
+  rehash_only: bool = typer.Option(False),
+  ):
   repo_name, chart_name = name.split('/')
   charts = get_charts()
   local_chart = charts[repo_name][chart_name]
 
-  update_one_chart(repo_name, chart_name, local_chart, commit, fail_on_fetch=True)
+  update_one_chart(repo_name, chart_name, local_chart, commit, fail_on_fetch=True, rehash_only=rehash_only)
   if rebuild:
     build_chart(repo_name, chart_name, check=True)
 
