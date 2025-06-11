@@ -1,6 +1,6 @@
 {
   repo = "https://charts.bitnami.com/bitnami/";
   chart = "mariadb-galera";
-  version = "14.2.7";
-  chartHash = "sha256-kNRgxGBvKHHSBvnM5u1bxHiwRcx0Nv1CwBKAQCsKcT0=";
+  version = "14.2.8";
+  chartHash = "sha256-uapvm3ByUEO1PSnR/FcIEBhx4B2il3TC6wx3XrXaROI=";
 }
