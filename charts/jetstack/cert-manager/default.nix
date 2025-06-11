@@ -1,7 +1,7 @@
 {
   repo = "https://charts.jetstack.io/";
   chart = "cert-manager";
-  version = "v1.17.2";
-  chartHash = "sha256-8d/BPet3MNGd8n0r5F1HEW4Rgb/UfdtwqSFuUZTyKl4=";
+  version = "v1.18.0";
+  chartHash = "sha256-FlBah+0vr+9OBEAv/xQkCqjItGwG8QYOXh461OMDGB0=";
   bogusVersion = true;
 }
