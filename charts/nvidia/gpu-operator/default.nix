@@ -1,7 +1,7 @@
 {
   repo = "https://helm.ngc.nvidia.com/nvidia/";
   chart = "gpu-operator";
-  version = "v25.3.0";
-  chartHash = "sha256-DbVQcH1AvxcDFcgboainVTI9VMn5tT7e6evzKjGWEM4=";
+  version = "v25.3.1";
+  chartHash = "sha256-vdHalxXCwZpEnp7xYuBrsRhlGah5nSFArxfYfkvjg8g=";
   bogusVersion = true;
 }
